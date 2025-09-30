@@ -5,6 +5,7 @@ import { Web3Provider } from "../lib/providers"
 import Header from "../components/header"
 import { StructuredData, GeographicSEO } from "../components/seo"
 import '@rainbow-me/rainbowkit/styles.css'
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://gitglyph.com"),
