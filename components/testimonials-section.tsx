@@ -85,7 +85,7 @@ export default function TestimonialsSection() {
               
               {/* Content */}
               <p className="text-white/80 mb-6 leading-relaxed">
-                "{testimonial.content}"
+                {`"${testimonial.content}"`}
               </p>
 
               {/* Rating */}
